@@ -1,0 +1,672 @@
+body{
+    margin: auto;
+}
+.container{
+    width: auto;
+    height: auto;
+}
+.logo{
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+    display: flex;  
+    align-items: center;  
+    justify-content: space-between;
+    font-size: 13px;
+    padding-top: 20px;
+}
+.nav_link li{
+    display: inline-block;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    justify-self: self-end;
+    padding-top: 5px;
+}
+li a{
+    color: whitesmoke;
+    padding-left: 15px;
+    padding-right: 25px;
+    text-decoration: none;
+}
+h2 span{    
+    color: red;
+}
+i{
+    color: whitesmoke;
+    padding: 0px 20px;
+    font-size: 18px;
+}
+span i{
+    border-right: 1px solid #6f6f6f;
+    padding: 0px 25px;
+}
+a i{
+    padding: 0px 10px;
+}
+.wrapper {
+    min-height: 100vh;
+    background: url('http://www.themezaa.com/html/pofo/images/homepage-3-slider-img-1.jpg') no-repeat;
+    background-size: cover;
+}
+.header1{
+    display: inline;
+    padding-left: 35px;
+}
+.main button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.main button{
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-top: 25px;
+    border: 2px solid whitesmoke;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.main{
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.main h1{
+    color: whitesmoke;
+    font-size: 4em;
+}
+.main h6{
+    color: whitesmoke;
+}
+.col-6 img{
+    max-width:205%;
+}
+.second-col h6 p{
+    color: #ff214f;
+    margin-top: 70px;
+}
+.second-col h6{
+    margin-top: 20px;
+}
+.section1 h2{
+    margin: 3px;
+}
+.section1 a{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.section1 p{
+    margin: 20px 0px;
+    color: rgb(121, 118, 118);
+}
+.section1 i{
+    color: black;
+    padding: 0px;
+    margin-top: 20px;
+}
+.section2 h1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.section2 p{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: rgb(121, 118, 118);
+    height: auto;
+}
+.section3 i{
+    background-color: #ff214f;
+    color: whitesmoke;
+    padding: 20px;
+    border: 1px solid #ff214f;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.section3 .col{
+    text-align: center;
+    border: 1px solid rgb(194, 189, 189);
+    margin: 10px;
+    border-radius: 2%;
+    padding-top: 50px;
+}
+.section3 p{
+    color: rgb(121, 118, 118);
+    margin-top: 10px;
+    padding-bottom: 50px;   
+}
+.section4{
+    padding-top: 140px;
+    padding-bottom: 90px;
+}
+.section4 img{
+    min-height: 65.8vh;
+    background: no-repeat;
+    width: 330px;
+}
+.section4 .row{
+    display: flex;
+}
+.section4 .col{
+    background-color: #141313;
+    color: whitesmoke;
+    padding: 0px 30px;
+    font-size: 14px;
+}
+.section4 p{
+    color: rgb(121, 118, 118)
+}
+.section4 h6{
+    color:  rgb(121, 118, 118);
+    margin-top: 50px;
+}
+.section4 button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+button i:hover{
+    color: black;
+}
+.section4 button{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 2px solid whitesmoke;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5%;
+    background: transparent;
+    font-size: 13px;
+}
+button i{
+    padding: 5px;    
+}
+.section5 li a{
+    color: #6f6f6f;
+}
+.section5 li{
+    display: flex;
+    display: inline-block;
+}
+.section5 nav{
+   justify-content: center;
+}
+.section6{
+    padding: 0px 30px;
+    padding-right: 20px;
+    margin-top: 90px;
+}
+.section6 img{
+    width: 107%;
+    height: 240px;
+}
+.section7{
+    padding: 0px 30px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+.section7 img{
+    width: 107%;
+    height: 240px;
+}
+.section8 i{
+    color: #6f6f6f;
+    padding-left: 0px;
+}
+.section8 p{
+    color: #6f6f6f;
+    margin-right: 10px;
+    border-bottom: 1px solid #6f6f6f;
+    padding-bottom: 5px;
+}
+.section8 p-4{
+    border-bottom: 0px;
+}
+.section8 .sub{
+    margin-top: 30px;
+}
+.section8{
+    margin-top: 130px;
+}
+.section8 button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.section8 button i:hover{
+    color: black;
+}
+.section8 button{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: black;
+    font-size: 12px;
+}
+.section8 button i{
+    color: white;
+}
+.section8 img{
+    height: auto;
+    width: 100%;
+}
+.section9 {
+    padding-left: 90px;
+    background-color: #f2f2f2;
+}
+.section9 h1{
+    margin-top: 40px;
+}
+.section9 i{
+    color: #6f6f6f;
+    position: absolute;
+    margin-right: 20px;
+    padding: 0px;;
+}
+.section9 h6{
+    margin: 0px;
+    padding-left: 70px;
+}
+.section9 p{
+    padding-left: 70px;
+    margin-top: 10px;
+    color: #6f6f6f;
+    text-align: inherit;
+}
+.section9 .row{
+    margin-top: 50px;
+}
+.section9 img{
+    height: 100%;
+    width: 103%;
+}
+.section10{
+    text-align: center;
+    margin: 70px 0px;
+    color: #6f6f6f;
+}
+.section10 h1{
+    color: black;
+    border-bottom: 1px solid red;
+    padding-bottom: 20px;
+    margin: 0px 552px;
+}
+.section11{
+    margin-bottom: 90px;
+}
+.section11 img{
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+.section11 h6{
+    text-align: center;
+    margin-top: 20px;
+}
+.section11 p{
+    text-align: center;
+    color: #6f6f6f;
+}
+.section12 i{
+    color: #ff214f;
+    padding-left: 0px;
+}
+.section12 h1{
+    color: whitesmoke;
+}
+.section12 p{
+    color: #6f6f6f;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+.section12 p-4{
+    border-bottom: 0px;
+}
+.section12 .sub{
+    margin-top: 30px;
+}
+.section12{
+    background: url('http://www.themezaa.com/html/pofo/images/homepage-9-parallax-img5.jpg') no-repeat;
+    padding: 130px 0px;
+    background-color: #1c1c1c;
+}
+.section12 button:hover{
+    color: whitesmoke;
+    background: transparent;
+}
+.section12 button i:hover{
+    color: whitesmoke;
+}
+.section12 button{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 12px;
+}
+.section12 button i{
+    color: black;
+}
+.section12 img{
+    height: auto;
+    width: 100%;
+}
+.section12 a{
+    color: #6f6f6f;
+}
+.section13{
+    margin: 100px 118px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #c0bebe;
+}
+.section13 img{
+    height: auto;
+    width: 90%;
+}
+.section13 h6 p{
+    color: #ff214f;
+}
+.section13 p{
+    color: #6f6f6f;
+    padding: 5px 0px;
+}
+.section13 button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.section13 button i:hover{
+    color: black;
+}
+.section13 button{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: black;
+    font-size: 12px;
+    }
+.section13 button i{
+    color: white;
+}
+.section14{
+    margin: 80px 0px;
+}
+.section14 i{
+    color: #6f6f6f;
+    padding: 0px;
+    position: absolute;
+}
+.section14 h6{
+    padding-left: 70px;
+}
+.section14 p{
+    padding-left: 70px;
+    color: #6f6f6f;
+}
+.section15{
+    padding-left: 109px;
+    margin: 100px 0px;
+    background-color: #f2f2f2;
+}
+.section15 i{
+    color: #6f6f6f;
+    padding-left: 0px;
+}
+.section15 p{
+    color: #6f6f6f;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+.section15 button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.section15 button i:hover{
+    color: black;
+}
+.section15 button{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: black;
+    font-size: 12px;
+}
+.section15 button i{
+    color: white;
+}
+.section15 img{
+    height: 100%;
+    width: 100%;
+}
+.section15 h6{
+    color: #ff214f;
+    margin-top: 50px;
+}.section16{
+    margin: 50px 0px;   
+}
+.section16 i{
+    position: absolute;
+    color: #6f6f6f;
+    padding: 0px;
+}
+.section16 h3{
+    padding-left: 60px;
+    margin-bottom: 0px;
+}
+.section16 p{
+    padding-left: 60px;
+    font-size: 13px;
+    color: #6f6f6f;
+}
+.section17{
+    min-height: 100vh;
+    padding: 70px 0px;
+    background-color: rgba(255, 99, 71, 0.1);
+    background-size: cover;
+    background-image: url('http://www.themezaa.com/html/pofo/images/parallax-bg6.jpg');
+}
+.section17 button:hover{
+    color: whitesmoke;
+    background: transparent;
+}
+.section17 button i:hover{
+    color: black;
+}
+.section17 button{
+    margin-bottom: 30px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    font-size: 12px;
+}
+.section17 button i{
+    color: black;
+    align-items: center;
+}
+.section18 img{
+    padding: auto;
+    margin: 70px 0px;
+}
+.section19{
+    text-align: center;
+    padding: 100px 0px;
+    margin-top: 50px;
+    background-color: #f2f2f2;
+}
+.section19 h6{
+    color: #6f6f6f;
+}
+.section19 h1{
+    color: black;
+    border-bottom: 1px solid red;
+    padding-bottom: 20px;
+    margin: 0px 520px;
+}
+.section19 img{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 30px;
+}
+.section19 .col{
+    border: 1px solid #f2f2f2;
+    margin: 15px;
+    background-color: white;
+    margin-top: 100px;
+    padding: 30px 50px;
+}
+.section19 .col h6{
+    color: black;
+}
+.section19 p{
+    margin-top: px;
+    color: #6f6f6f;
+}
+.section20 img{
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.section20{
+    padding: 100px 0px;
+    margin-top: 50px;
+}
+.section20 h6{
+    color: #6f6f6f;
+    text-align: center;
+}
+.section20 h1{
+    color: black;
+    border-bottom: 1px solid red;
+    padding-bottom: 20px;
+    margin: 0px 420px;
+}
+.section20 a{
+    text-align: left;
+    color: #6f6f6f;
+    font-size: 10px;
+}
+.section20 .row p{
+    margin-top: 5px;
+    color: black;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    border-bottom: 1px solid #6f6f6f;
+}
+.section20 span{
+    color: #6f6f6f;
+}
+.section20 .row{
+    margin-top: 100px;
+}
+.section21{
+    background-color: #141414;
+    padding: 50px 0px;
+}
+.section21 ul{
+    position: absolute;
+    padding-left: 50%;
+}
+.section21 img{
+    height: 30px;
+}
+.section21 li{
+    display: inline-block;
+    color: whitesmoke;
+    padding-left: 20px;
+}
+.section21 i{
+    color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+.section21 .col{
+    display: flex;
+    justify-content:center;
+}
+.section21 a{
+    padding-right: 100px;
+    color: #6f6f6f;
+}
+.section21 p{
+    display: flex;
+    color: #6f6f6f;
+    justify-content: center;
+}
+footer p{
+    font-size: 12px;
+    color: gray;
+}
+footer h6{
+    color: gray;
+    margin-bottom: 20px;
+}
+footer img{
+    width: 25%;
+    height: auto;
+    position: absolute;
+}
+footer .only p{
+    padding-left: 100px;
+}
+footer{
+    background-color: #1c1c1c;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+footer .container{
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+footer input{
+    background: transparent;
+    color: gray;
+    font-size: 13px;
+    height: 30px;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #6f6f6f;
+}
+footer button {
+    height: 30px;
+    background-color: #1c1c1c;
+    border: 1px solid #6f6f6f;
+    position: absolute;
+}
+.footer-bottom{
+    background-color: #1c1c1c;
+    color: #6f6f6f;
+    padding-bottom: 30px;
+    font-size: 12px;
+}
+.insta .col img{
+    width: 80px;
+    height: 65px;
+}
+.insta .sec img{
+    margin-top: 75px;
+}
