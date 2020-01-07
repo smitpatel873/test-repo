@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <style>
+        body{      
+             background-image: linear-gradient(150deg, #ccf5ff,  #003d4d);
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+        form{
+            background-color: white;
+            border-radius: 5px;
+            flex-basis: 50px;
+            margin: auto;
+            margin-top: 10%;
+            width: 30%;
+            box-shadow: 2px 2px #f2f2f2;
+        }
+        h2{
+            margin-bottom: 45px;
+            padding-left: 10px;
+        }
+        p{
+        text-align: center;
+        border-bottom: initial;
+        text-decoration: underline;
+        }
+        a{
+            padding-left: 10px;
+        }
+        input{
+            padding-left: 10px;
+            width: 300px;    
+            outline-style: none;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            border: none;
+            border-bottom: 1px solid #dddddd;
+            height: 20px;
+        }
+        button:hover, button:active {
+        background-color: #37a8f3;
+        }
+        button{
+            width: -webkit-fill-available;
+            background-color: #4db8ff;
+            border: none;
+            height: 30px;
+            border-radius: 0px 0px 5px 5px;
+            margin: 0px -2px -2px 0px;
+            color: #ffffff;
+        }
+        input{
+            margin: 3px 0px;
+            margin-right: 10px;
+            margin-bottom: 12px;
+        }
+        h2 .fab{
+            margin-right: 5px;
+            margin-left: 30px;
+        }
+        .eye{
+            position: absolute;
+            margin-left: 190px;
+            margin-top: 20px;
+            
+        }
+        .far{
+            position: relative;
+            margin-left: 20px;
+          
+        }
+        #a{
+            margin-bottom: 30px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <h2><i class="fab fa-dropbox"></i></i>Singal sign-on(sso)</h2>
+                <a>User id</a>
+                <input type="text" name="name">
+                
+                <a>password</a>
+                <span class="eye">
+                    <i class="far fa-eye"></i>
+                </span>
+                <input id="a" type="password" name="password">
+                <button>Log in</button>
+            </form>
+        </div>
+        <p>Forget password?</p>
+    </body>
+
+</html>
