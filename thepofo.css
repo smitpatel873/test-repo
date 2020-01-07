@@ -513,7 +513,6 @@ button i{
 .section19{
     text-align: center;
     padding: 100px 0px;
-    margin-top: 50px;
     background-color: #f2f2f2;
 }
 .section19 h6{
@@ -593,7 +592,7 @@ button i{
 .section21 img{
     height: 30px;
 }
-.section21 li{
+.section21 a i{
     display: inline-block;
     color: whitesmoke;
     padding-left: 20px;
@@ -609,8 +608,11 @@ button i{
     justify-content:center;
 }
 .section21 a{
-    padding-right: 100px;
+    padding-right: 80px;
     color: #6f6f6f;
+}
+.section21 ul a{
+    padding-right: 0px;
 }
 .section21 p{
     display: flex;
